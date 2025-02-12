@@ -8,4 +8,4 @@ End-to-end models capable of handling multiple sub-tasks in parallel have become
 
 ## **🚧 Dataset Under Preparation**
 
-*Our point cloud dataset is currently under active preparation. Updates coming soon – watch this space!*👀
+_Our point cloud dataset is currently under active preparation. Updates coming soon – watch this space!👀_
