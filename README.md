@@ -6,6 +6,9 @@ We introduce WHU-Synthetic, a large-scale 3D synthetic perception dataset design
 
 <img src="media/teaser.jpg" alt="Intro" style="zoom:100%;" />
 
+## 🆕 News
+- 2025-02-08:  Accepted by TGRS! 🎉🎉🎉
+
 ## **🚧 Dataset Under Preparation**
 
 _Our point cloud dataset is currently under active preparation. Updates coming soon – watch this space!👀_
