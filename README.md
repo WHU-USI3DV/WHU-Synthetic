@@ -50,7 +50,7 @@ In the multi-task exploration experiment, we designed a framework with a shared 
 
 <img src="media/Network.jpg" alt="Intro" style="zoom:100%;" />
 
-<img src="media/results.png" alt="Intro" style="zoom:50%;" />
+<img src="media/results.png" alt="Intro" style="zoom:30%;" />
 
 ### 5. Domain Shift
 <p align="justify">
