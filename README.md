@@ -36,11 +36,9 @@ We meticulously configure our setup by the parameters of KITTI sensors and added
 <img src="media/collection setting.png" alt="Intro" style="zoom:50%;" />
 
 ### 3. Unique Features
-<p align="justify">
 * **Multiple Density Data**: WHU-Synthetic captures point clouds with varying densities (16/32/64/128 channels) in a single frame, supporting tasks like upsampling, depth completion, and segmentation, and enabling domain adaptation studies.
 * **City-Level Surface Sampling**: The dataset uses Monte Carlo Sampling to generate unobstructed point clouds from a city mesh model, divided into 120m × 120m blocks. This supports scene-level completion and city-scale 3D reconstruction.
 * **Simulated Environmental Changes**: WHU-Synthetic simulates short-term changes in environments to study place recognition under dynamic conditions, providing insights into algorithm adaptability.
-</p>
 
 ### 4. Multi-task Network
 <p align="justify">
