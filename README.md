@@ -2,7 +2,10 @@
 <h3 align="center">
 <a href="https://github.com/WHU-USI3DV/WHU-Synthetic" target="_blank">WHU-Synthetic: A Synthetic Perception Dataset for 3D Multi-task Model Research</a>
 </h3>
+<p align="justify">
 We introduce WHU-Synthetic, a large-scale 3D synthetic perception dataset designed for multi-task learning, from the initial data augmentation, through scene understanding , to macro-level tasks. Collected in the same environmental domain, we ensure inherent alignment across sub-tasks to construct multi-task models without separate training methods. Besides, we implement several novel settings, making it possible to realize certain ideas that are difficult to achieve in real-world scenarios. This supports more adaptive and robust multi-task perception tasks, such as sampling on city-level models, providing point clouds with different densities, and simulating temporal changes.
+</p>
+
 
 <img src="media/teaser.jpg" alt="Intro" style="zoom:100%;" />
 
