@@ -6,10 +6,7 @@
 We introduce WHU-Synthetic, a large-scale 3D synthetic perception dataset designed for multi-task learning, from the initial data augmentation, through scene understanding , to macro-level tasks. Collected in the same environmental domain, we ensure inherent alignment across sub-tasks to construct multi-task models without separate training methods. Besides, we implement several novel settings, making it possible to realize certain ideas that are difficult to achieve in real-world scenarios. This supports more adaptive and robust multi-task perception tasks, such as sampling on city-level models, providing point clouds with different densities, and simulating temporal changes.
 </p>
 
-<div align=center>
-<img src="media/teaser.jpg" alt="Intro" style="zoom:10%" align='middle'>
-</div>
-<!-- <img src="media/teaser.jpg" alt="Intro" style="zoom:10%" > -->
+<img src="media/teaser.jpg" alt="Intro" style="zoom:10%" >
 
 ## 🆕 News
 - 2025-02-08:  Accepted by TGRS! 🎉🎉🎉
