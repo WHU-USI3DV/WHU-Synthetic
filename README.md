@@ -13,7 +13,7 @@ We introduce WHU-Synthetic, a large-scale 3D synthetic perception dataset design
 
 ## 🚧 Download
 
-_Our dataset is currently under active preparation. Updates coming soon – watch this space!👀_
+_Our dataset is currently under active preparation. Updates coming soon (It is expected to be released in mid-March) – watch this space!👀_
 
 ## 🔢 Dataset
 
