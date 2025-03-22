@@ -9,11 +9,19 @@ We introduce WHU-Synthetic, a large-scale 3D synthetic perception dataset design
 <img src="media/teaser.jpg" alt="Intro" style="zoom:100%" >
 
 ## 🆕 News
-- 2025-02-08:  Accepted by TGRS! 🎉🎉🎉
+* The subset of our dataset is released! 🤩
+
+* 2025-02-08:  Accepted by TGRS! 🎉🎉🎉
 
 ## 🚧 Download
+<p align="justify">
+You can download the subset of WHU-Synthetic dataset from <a href="https://pan.baidu.com/s/17a4DbyJhPooVz595DNulsg?pwd=et7g" target="_blank">BaiduDisk</a>. It has 40,000 frames and is collected in 8 different city maps.
+</p>
 
-_Our dataset is currently under active preparation. Updates coming soon (It is expected to be released in **mid-March**) – watch this space!👀_
+
+<p align="justify">
+The complete data of WHU-Synthetic is too large and can be obtained by request.
+</p>
 
 ## 🔢 Dataset
 
@@ -62,6 +70,58 @@ In the domain shift experiments, pre-trained models from the WHU-Synthetic datas
 <div align="center">
 <img src="media/upsampling.png" alt="Intro" style="width:60%;" />
 </div>
+### 6. Data Structure
+
+```
+WHU-Synthetic
+├── rgb
+│    ├── image_01
+│    │    ├── 000001.png
+|    |    ├── 000002.png
+│    │    └── ...
+│    ├── image_02
+│    │    └── ...
+│    └──
+├── proj_depth
+│    ├── ground_truth
+│    │    ├── 000001.png
+|    |    ├── 000002.png
+│    │    └── ...
+│    ├── velodyne_raw16
+│    │    └── ...
+│    ├── velodyne_raw32
+│    │    └── ...
+│    ├── velodyne_raw64
+│    │    └── ...
+│    ├── velodyne_raw128
+│    │    └── ...
+│    └──
+└── pointcloud
+     ├── 16
+     │   ├── velodyne
+     │   │    ├── 000001.bin
+     │   |    ├── 000002.bin
+     │   │    └── ...
+     │   ├── labels
+     │   │    ├── 000001.label
+     │   |    ├── 000002.label
+     │   │    └── ...
+     │   ├── idx_labels
+     │   │    ├── 000001.label
+     │   |    ├── 000002.label
+     │   │    └── ...
+     │   └── ...
+     ├── 32
+     │    └── ...
+     ├── 64
+     │    └── ...
+     ├── 128
+     │    └── ...
+     └──
+```
+
+* For the format of depth images, you can refer to [KITTI Depth](https://www.cvlibs.net/datasets/kitti/eval_depth.php?benchmark=depth_completion).
+* For the format of annotated point clouds, you can refer to [SemanticKITTI](https://semantic-kitti.org/dataset.html#format).
 
 
 ## 📚 Citation
