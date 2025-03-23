@@ -9,7 +9,7 @@ We introduce WHU-Synthetic, a large-scale 3D synthetic perception dataset design
 <img src="media/teaser.jpg" alt="Intro" style="zoom:100%" >
 
 ## 🆕 News
-* 2025-3-22: The subset of our dataset is released! 🤩
+* 2025-03-22: The subset of our dataset is released! 🤩
 
 * 2025-02-08:  Accepted by TGRS! 🎉🎉🎉
 
