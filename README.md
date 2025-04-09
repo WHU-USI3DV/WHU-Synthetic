@@ -1,6 +1,6 @@
 <h1 align="center"> <p> WHU-Synthetic </p></h1>
 <h3 align="center">
-<a href="https://ieeexplore.ieee.org/document/10879799" target="_blank">WHU-Synthetic: A Synthetic Perception Dataset for 3D Multi-task Model Research</a>
+<a href="https://ieeexplore.ieee.org/document/10879799" target="_blank">WHU-Synthetic: A Synthetic Perception Dataset for 3-D Multitask Model Research</a>
 </h3>
 <p align="justify">
 We introduce WHU-Synthetic, a large-scale 3D synthetic perception dataset designed for multi-task learning, from the initial data augmentation, through scene understanding, to macro-level tasks. Collected in the same environmental domain, we ensure inherent alignment across sub-tasks to construct multi-task models without separate training methods. Besides, we implement several novel settings, making it possible to realize certain ideas that are difficult to achieve in real-world scenarios. This supports more adaptive and robust multi-task perception tasks, such as sampling on city-level models, providing point clouds with different densities, and simulating temporal changes.
@@ -128,12 +128,15 @@ WHU-Synthetic
 ## 📚 Citation
 
 ```
-@article{zhou2025whu,
-  title={WHU-Synthetic: A Synthetic Perception Dataset for 3D Multi-task Model Research},
+@ARTICLE{10879799,
   author={Zhou, Jiahao and Long, Chen and Xie, Yue and Wang, Jialiang and Zhang, Conglang and Li, Boheng and Wang, Haiping and Chen, Zhe and Dong, Zhen},
-  journal={IEEE Transactions on Geoscience and Remote Sensing},
+  journal={IEEE Transactions on Geoscience and Remote Sensing}, 
+  title={WHU-Synthetic: A Synthetic Perception Dataset for 3-D Multitask Model Research}, 
   year={2025},
-  publisher={IEEE}
+  volume={63},
+  number={},
+  pages={1-18},
+  doi={10.1109/TGRS.2025.3541072}
 }
 ```
 
